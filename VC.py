@@ -4,14 +4,6 @@ from json import dumps
 from websocket import WebSocket
 from concurrent.futures import ThreadPoolExecutor
 
-
-readproxy = open('proxies.txt','r')
-readproxy2 = readproxy.readlines()
-workproxy = []
-for proxy3 in readproxy2:
-    proxystrip = proxy3.strip('\n')
-    workproxy.append(proxystrip)
-
 guild_id = input("Guild ID: ")
 chid = input("Channel ID: ")
 tokenlist = open("tokens.txt").read().splitlines()
