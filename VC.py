@@ -12,7 +12,7 @@ mute = False
 deaf = False
 def run(token) :
     ws = WebSocket()
-    ws.connect("wss://gateway.discord.gg/?v=8&encoding=json")
+    ws.connect("wss://gateway.discord.gg/?v=9&encoding=json")
     hello = loads(ws.recv())
     heartbeat_interval = hello['d']['heartbeat_interval']
     ws.send(dumps({"op": 2,"d": {"token": token,"properties": {"$os": "windows","$browser": "Discord","$device": "desktop"}}}))
