@@ -4,8 +4,8 @@ from json import dumps
 from websocket import WebSocket
 from concurrent.futures import ThreadPoolExecutor
 
-guild_id = input("Guild ID: ")
-chid = input("Channel ID: ")
+guild_id = input("Guild ID: "1027959688723173456)
+chid = input("Channel ID: "1028254497472004157)
 tokenlist = open("tokens.txt").read().splitlines()
 executor = ThreadPoolExecutor(max_workers=int(1000000))
 mute = False
