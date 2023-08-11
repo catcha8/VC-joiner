@@ -1,8 +1,7 @@
-<h2 align="center">Discord Server: <a href="https://discord.gg/catcha">discord.gg/catcha</a></h2>
+<h2 align="center">Discord Server: <a href="https://discord.gg/hktVzrff54">discord.gg/catcha</a></h2>
 
-<h1>The code was made by Qoft</h1>
 
-<h1><a href="https://www.tiktok.com/@nsl.dev/video/7137731306640674054?is_from_webapp=1&sender_device=pc&web_id=7117334792081442309">Tuto Here</a></h1>
+<h1><a href="https://discord.gg/hktVzrff54">Tuto Here</a></h1>
 
 <p align="center">
 <strong>Star and follows me <3</strong>
